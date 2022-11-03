@@ -125,8 +125,8 @@ footer {
      
      #im2 {
       margin-top: -100px;
-      width: 210px;
-      height: 210px;
+      width: 200px;
+      height: 200px;
      }
      
      
@@ -167,6 +167,7 @@ footer {
 
     footer {
         margin-top: 250px;
+        margin-bottom: 60px;
         }
     
         #im4 {
@@ -178,7 +179,7 @@ footer {
         #im5 {
             position:absolute;
             background-color: transparent;
-            margin-left: -210px;
+            margin-left: -238px;
             margin-top: -370px;
             width: 115px;
             height: 115px;
@@ -187,7 +188,7 @@ footer {
         #im6 {
             position:absolute;
             background-color: transparent;
-            margin-left: -75px;
+            margin-left: -98px;
             margin-top: -320px;
         }
     
