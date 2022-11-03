@@ -169,6 +169,27 @@ footer {
         margin-top: 250px;
         }
     
+        #im4 {
+            position: absolute;
+            margin-left: -230px;
+            margin-top: 70px;
+        }
+    
+        #im5 {
+            position:absolute;
+            background-color: transparent;
+            margin-left: -210px;
+            margin-top: -370px;
+            width: 115px;
+            height: 115px;
+        }
+    
+        #im6 {
+            position:absolute;
+            background-color: transparent;
+            margin-left: -75px;
+            margin-top: -320px;
+        }
     
     
     
