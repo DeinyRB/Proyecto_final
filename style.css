@@ -196,10 +196,55 @@ footer {
     
 
 }
+
+/*Pantalla para computadora*/
      
 
 @media screen and (min-width: 900px) {
 
+    #im {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        margin-left: 150px;
+        width: 150px;
+        height: 100px;
+
+    }
+
+    #uno {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 50px;
+     }
+     
+     #im1 {
+         width: 160px;
+         height: 160px;
+     }
+     
+     #im2 {
+      margin-top: -100px;
+      width: 200px;
+      height: 200px;
+      margin-right: 80px;
+     }
+     
+     
+     #titulo {
+         font-size: 180px;
+         margin-left: 190px;
+         position: absolute;
+         top: 130px;
+         z-index: 2;
+
+     }
+     
+     #info {
+        margin-top: 300px;
+        margin-left: 150px;
+     }
+
+     
 
 
 
