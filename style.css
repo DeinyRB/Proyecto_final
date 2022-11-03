@@ -103,7 +103,46 @@ footer {
 
 @media screen and (min-width: 500px) { 
 
-    
+    #im {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 150px;
+        height: 100px;
+
+    }
+
+    #uno {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 50px;
+     }
+     
+     #im1 {
+         width: 160px;
+         height: 160px;
+     }
+     
+     #im2 {
+      margin-top: -100px;
+      width: 210px;
+      height: 210px;
+     }
+     
+     
+     #titulo {
+         font-size: 94px;
+         margin-left: 40px;
+         position: absolute;
+         top: 320px;
+         z-index: 2;
+
+     }
+     
+     #info {
+        margin-top: 300px;
+     }
+
 
 }
      
