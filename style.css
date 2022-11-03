@@ -144,6 +144,35 @@ footer {
      }
 
 
+     /*segunda parte main*/
+
+    #p-principal {
+        font-size: 22px;
+        margin-left: 40px;
+        padding-right: 50px;
+        }
+    
+        button {
+        margin-left: 40px;
+        }
+    
+        #im3 {
+            margin-left: 520px;
+            width: 145px;
+            height: 145px;
+            margin-top: -137px;
+        }
+
+            /**final footer*/
+
+    footer {
+        margin-top: 250px;
+        }
+    
+    
+    
+    
+
 }
      
 
