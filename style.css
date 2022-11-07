@@ -57,6 +57,7 @@
     margin-right: 45px;
 }
 
+
 button {
     margin-top: 30px;
     margin-left: 20px;
@@ -100,6 +101,11 @@ footer {
     height: 43px;
 }
 
+#im4, #im5, #im6 {
+    display: none;
+}
+
+/*Pantalla Tablet*/
 
 @media screen and (min-width: 500px) { 
 
@@ -146,18 +152,19 @@ footer {
 
      /*segunda parte main*/
 
-    #p-principal {
+    .parf {
         font-size: 22px;
         margin-left: 40px;
         padding-right: 50px;
+        color:#a8bcc5;
         }
     
         button {
-        margin-left: 40px;
+        margin-left: 60px;
         }
     
         #im3 {
-            margin-left: 520px;
+            margin-left: 490px;
             width: 145px;
             height: 145px;
             margin-top: -137px;
@@ -165,22 +172,27 @@ footer {
 
             /**final footer*/
 
+            #im4, #im5, #im6 {
+                display: block;
+            }
+
     footer {
-        margin-top: 250px;
+        margin-top: 270px;
         margin-bottom: 60px;
+        margin-left: 60px;
         }
     
         #im4 {
             position: absolute;
-            margin-left: -230px;
+            margin-left: 400px;
             margin-top: 70px;
         }
     
         #im5 {
             position:absolute;
             background-color: transparent;
-            margin-left: -238px;
-            margin-top: -370px;
+            margin-left: 418px;
+            margin-top: -390px;
             width: 115px;
             height: 115px;
         }
@@ -188,7 +200,7 @@ footer {
         #im6 {
             position:absolute;
             background-color: transparent;
-            margin-left: -98px;
+            margin-left: 550px;
             margin-top: -320px;
         }
     
@@ -231,7 +243,7 @@ footer {
      
      
      #titulo {
-         font-size: 180px;
+         font-size: 186px;
          margin-left: 190px;
          position: absolute;
          top: 130px;
@@ -240,14 +252,63 @@ footer {
      }
      
      #info {
-        margin-top: 300px;
+        margin-top: 310px;
         margin-left: 150px;
      }
 
-     
+
+  /*segunda parte main*/
+
+    .parf {
+        font-family: 'Inter', sans-serif;
+        font-size: 27px;
+        color:#a8bcc5;
+        margin-left: 40px;
+    }
+
+    #info span {
+        display: block;
+    }
+
+    #im3 {
+        margin-left: 875px;
+        width: 155px;
+        height: 155px;
+        margin-top: -170px;
+        position: absolute; 
+
+    }
+ 
+
+    #im5 {
+        position:absolute;
+        background-color: transparent;
+        margin-left: 1029px;
+        margin-top: -560px;
+        width: 145px;
+        height: 145px;
+        }
+    
+    #im6 {
+    position:absolute;
+    background-color: transparent;
+    margin-left: 1400px;
+    margin-top: -185px;
+        }
 
 
+    #im4 {
+        position: absolute;
+        margin-left: 1180px;
+        margin-top: 80px;
+    }
 
+    footer {
+        margin-top: 160px;
+        margin-bottom: 150px;
+        margin-left: 200px;
+
+        }
 
 }
 
